@@ -1,0 +1,134 @@
+body {
+    background-color: rgb(41, 41, 58);
+    margin: 0px;
+    font-family: 'Mulish', sans-serif;
+
+    min-height: 100vh;
+}
+
+.page {
+    padding-top: 65px;
+    margin: 0 auto ;
+    width: 1000px;
+
+}
+
+a::before {
+    display: block;
+    content: attr(title);
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-bottom: 55px;
+}
+
+ul li a:hover {
+    font-weight: bold;
+   
+}
+
+ a {
+    color: rgb(184, 188, 190);
+    text-decoration: none;
+}
+
+
+ul {
+    display: flex;
+    gap: 45px;
+    list-style: none;  
+    margin: 0;
+    padding: 0;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 65px;
+}
+
+h1 {
+    font-size: 49px;
+    color:aliceblue;
+
+    font-weight: normal;
+}
+
+span {
+    color: rgb(41, 204, 150); 
+    font-weight: bold;
+}
+
+h1 span {
+    color: rgb(41, 204, 150); 
+    font-weight: bold;
+}
+
+
+p {
+    
+    font-size: 23px;
+    color: rgb(184, 188, 190);
+
+    
+}
+
+button {
+    position: relative;
+    margin-left: 465px;
+    margin-top: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: aliceblue;
+    
+    border: none;
+    background: rgb(41, 204, 150); 
+    padding: 14px 32px 15px;
+    border-radius: 20px;
+     
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(69, 150, 123); 
+}
+
+#line {
+    width: 558px;
+    height: 0px;
+    margin-left: 220px;
+    margin-top: 150px;
+    border: 1px rgb(120, 216, 184) solid;
+
+}
+
+footer a {
+    color: aliceblue;
+}
+
+
+
+footer {
+    color: aliceblue;
+    text-align: center;
+    line-height: 50px;
+
+}
+
+#cadiado {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    
+}
